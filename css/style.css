@@ -1,0 +1,281 @@
+/*
+  Author: Lauren Lunsford 
+  Recent Update: March 25, 2021
+  University of Michigan
+*/
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  color: #000000;
+  font-size: 18px;
+  margin: 1.2em;
+  background-size: cover ;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+}
+
+nav li{
+  display:inline;
+  padding-right:20px;
+}
+
+main{
+  padding: 0% 10%;  
+}
+
+/*DESKTOP MENU*/
+.desktop_menu{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: right;
+}
+
+.desktop_menu a{
+  padding-left: 10px;
+}
+
+.current{
+  text-decoration: underline;
+  color:#3054DD;
+  
+}
+
+/*MOBILE MENU*/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-align: center;
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  color:#3054DD;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  padding-top: 35px;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #3054DD;
+}
+
+/* Style the active link (or home/logo) */
+.topnav .active {
+  background-color: white;
+  color: #3054DD;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+
+h1{
+  color: #3054DD;
+  font-size: 2em;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
+}
+
+
+h2{
+  font-family: 'Hind', sans-serif;
+  color: #3054DD;
+  font-size: 1.5em;
+  text-transform: uppercase;
+
+}
+
+h2.intro{
+  text-transform: capitalize;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  padding: top 40px;
+
+}
+
+div.intro{
+  color: #000;
+}
+
+
+h3{
+  font-size: .75em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3.intro{
+  padding-bottom: 50px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.tired{
+  padding-bottom: 50px;
+
+}
+
+
+
+a{
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #3054DD;
+}
+
+h2 a{
+  font-family: 'Hind', sans-serif;
+  color: #3054DD;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 a:hover{
+  opacity: 0.7;
+}
+
+h2.intro{
+  text-align: center;
+}
+
+*:focus{
+  border: 3px dashed  #3054DD;
+}
+
+main{
+  padding-bottom: 100px;
+}
+
+footer{
+  position: relative;
+  width:100%;
+  min-height: 75px;
+  text-align:center;
+  color: #FFFFFF;
+  left: 0;
+  bottom: 0;
+}
+
+footer p{
+  color:#3054DD;
+  font-size: .75em;
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #3054DD;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+a.skip{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+a.skip:focus{
+  top:20px;
+  color: black;
+  text-decoration-style: solid;
+}
+
+p.data{
+  padding-bottom:100px ;
+}
+
+blockquote{
+  margin: 10px 200px;
+  font-style: italic;
+}
+
+.link{
+  color:lightcoral;
+  text-align: center;
+}
+
+a.link{
+  color: lightcoral;
+}
+
+div.indented_quote{
+  margin-top: 190pt;
+  font-style: italic;
+  margin-bottom: 150pt;
+  font-size: 200% ;
+  
+
+}
